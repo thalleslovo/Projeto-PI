@@ -1,4 +1,4 @@
-window.alert('seja bem vindo ');
+window.alert('Seja Bem Vindo');
 
 $(document).ready(function() {
     console.log("ConectaServ (PI 1º Semestre) carregado e pronto!");

@@ -1,0 +1,105 @@
+:root {
+    
+    --cor-primaria: #005f73;    
+    --cor-secundaria: #0a9396; 
+    --cor-fundo: #f8f9fa;
+    --cor-texto: #333;
+    --cor-branca: #ffffff;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+.bg-primary {
+    background-color: var(--cor-primaria) !important;
+}
+
+.navbar-brand {
+    display: flex !important;
+    align-items: center; 
+    flex-direction: row; 
+}
+
+.navbar-brand img {
+    height: 45px; 
+    width: auto;
+    margin-right: 0; 
+}
+
+.slogan-text {
+    font-size: 1rem; 
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.2;
+    
+    
+    border-left: 1px solid rgba(255, 255, 255, 0.5); 
+    padding-left: 15px; 
+    margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+    .slogan-text {
+        font-size: 0.75rem;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+    .navbar-brand img {
+        height: 35px;
+    }
+}
+
+.btn-light {
+    color: var(--cor-primaria) !important;
+    font-weight: 500;
+}
+.btn-light:hover {
+    background-color: #e2e6ea;
+}
+
+.btn-primary {    
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+    color: var(--cor-branca);
+    font-weight: 500;
+}
+.btn-primary:hover {
+    background-color: #004c5c;
+    border-color: #004c5c;
+}
+
+.btn-secondary {
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    color: var(--cor-branca);
+    font-weight: 500;
+}
+.btn-secondary:hover {
+    background-color: #087a7d;
+    border-color: #087a7d;
+}
+
+.hero {    
+    background-color: var(--cor-secundaria) !important;
+    border-radius: 8px;
+}
+
+.text-primary { color: var(--cor-primaria) !important; }
+.text-secondary { color: var(--cor-secundaria) !important; }
+
+.rating {
+    color: #f39c12; 
+    font-size: 1.2rem;
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--cor-primaria) !important;
+    font-weight: bold;
+}
+.nav-tabs .nav-link { color: #555; }
+
+.text-justify-p p:not(.lead) {
+    text-align: justify;
+}

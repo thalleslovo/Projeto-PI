@@ -19,6 +19,7 @@
 [cite_start]Projeto desenvolvido por[cite: 18]:
 
 * **Fernando Apolinário Faria**
+* **Gabriel Ribeiro da Silva**
 * **Marcelo de Almeida Neroni**
 * **Matheus Garcia Leite**
 * **Thalles Novais**

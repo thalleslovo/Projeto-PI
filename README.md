@@ -78,7 +78,8 @@ A organização dos arquivos segue o padrão exigido para desenvolvimento web:
 │
 └── imagem/              # Logos, ícones e fotos de perfil
     ├── logo.png
+    ├── logo_old.png
     ├── carlos.png
     ├── marcos.png
     ├── maria.png
-    ├── ...
+    ├── cliente.png

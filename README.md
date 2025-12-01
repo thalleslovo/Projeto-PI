@@ -32,7 +32,7 @@
 
 * ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) **HTML5:** Estrutura semântica das páginas.
 * ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) **CSS3:** Estilização personalizada e identidade visual (Paleta Azul/Petróleo).
-* [cite_start]![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) **Bootstrap 4:** Framework para layout responsivo e componentes de interface[cite: 148].
+* ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) **Bootstrap 4:** Framework para layout responsivo e componentes de interface.
 * ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) **JavaScript:** Manipulação de DOM e interatividade das abas.
 
 ---

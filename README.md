@@ -8,15 +8,15 @@
 
 ## 📌 Sobre o Projeto
 
-[cite_start]O **ConectaServ** é um website desenvolvido como **Projeto Interdisciplinar (PI)** do 1º Semestre do curso de **Desenvolvimento de Software Multiplataforma** da **Fatec Franca - "Dr. Thomaz Novelino"**[cite: 3, 5].
+O **ConectaServ** é um website desenvolvido como **Projeto Interdisciplinar (PI)** do 1º Semestre do curso de **Desenvolvimento de Software Multiplataforma** da **Fatec Franca - "Dr. Thomaz Novelino"**.
 
-[cite_start]O objetivo principal foi desenvolver uma solução web responsiva (protótipo navegável) que resolve a dificuldade de encontrar profissionais prestadores de serviço qualificados (como jardineiros, pedreiros, faxineiras) e, ao mesmo tempo, oferece visibilidade para esses profissionais divulgarem seus trabalhos[cite: 13, 126].
+O objetivo principal foi desenvolver uma solução web responsiva (protótipo navegável) que resolve a dificuldade de encontrar profissionais prestadores de serviço qualificados (como jardineiros, pedreiros, faxineiras) e, ao mesmo tempo, oferece visibilidade para esses profissionais divulgarem seus trabalhos.
 
 ---
 
 ## 👥 Integrantes do Grupo
 
-[cite_start]Projeto desenvolvido por[cite: 18]:
+Projeto desenvolvido por:
 
 * **Fernando Apolinário Faria**
 * **Gabriel Ribeiro da Silva**
@@ -28,7 +28,7 @@
 
 ## 🚀 Tecnologias Utilizadas
 
-[cite_start]O projeto foi construído utilizando as tecnologias base do desenvolvimento web, com foco na estruturação, estilização e interatividade[cite: 126, 144]:
+O projeto foi construído utilizando as tecnologias base do desenvolvimento web, com foco na estruturação, estilização e interatividade:
 
 * ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) **HTML5:** Estrutura semântica das páginas.
 * ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) **CSS3:** Estilização personalizada e identidade visual (Paleta Azul/Petróleo).
@@ -40,7 +40,7 @@
 
 ## ⚙️ Funcionalidades do Protótipo
 
-[cite_start]O site conta com 8 páginas navegáveis que simulam a experiência do usuário final[cite: 130]:
+O site conta com 8 páginas navegáveis que simulam a experiência do usuário final:
 
 1.  **Página Inicial (Home):** Apresentação do serviço e busca por cidade.
 2.  **Busca:** Listagem de profissionais encontrados com foto e avaliação.
@@ -57,7 +57,7 @@
 
 ## 📂 Estrutura do Projeto
 
-[cite_start]A organização dos arquivos segue o padrão exigido para desenvolvimento web[cite: 146]:
+A organização dos arquivos segue o padrão exigido para desenvolvimento web:
 
 ```text
 /ConectaServ

@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Seu CSS -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Manual Visual – ConectaServ</title>
+
+    <style>
+      /* Ajustes finos para o Manual */
+      .manual-section {
+        background: white;
+        border-radius: 8px;
+        padding: 32px;
+        margin-bottom: 40px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      }
+
+      .manual-section h2 {
+        color: var(--cor-primaria);
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      .manual-section h3 {
+        color: var(--cor-secundaria);
+        font-weight: 600;
+        margin-top: 24px;
+        margin-bottom: 12px;
+      }
+
+      table {
+        width: 100%;
+        background: white;
+      }
+
+      th {
+        background: var(--cor-fundo);
+        font-weight: 600;
+      }
+
+      td, th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+
+      pre {
+        background: #f1f1f1;
+        padding: 12px;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <!-- NAVBAR ORIGINAL -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+      <a class="navbar-brand" href="index.html">
+        <img src="imagem/logo.png" alt="ConectaServ Logo">
+        <span class="slogan-text">Conectando quem precisa a quem sabe fazer</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="como-funciona.html">Como Funciona</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-light text-dark ml-2 px-3" href="cadastro.html">Cadastrar</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- CONTEÚDO DO MANUAL -->
+    <main class="container my-5">
+
+      <!-- TÍTULO -->
+      <div class="manual-section text-center">
+        <h1 class="text-primary font-weight-bold">Manual Visual – ConectaServ</h1>
+        <p class="lead mt-3" style="color:#555;">
+          Guia oficial de identidade, UI e experiência do ConectaServ – organizado para documentação do PI.
+        </p>
+      </div>
+
+      <!-- 1. INTRODUÇÃO -->
+      <section class="manual-section" id="introducao">
+        <h2>1. Introdução</h2>
+        <p>O ConectaServ é um marketplace inteligente que conecta clientes a prestadores de serviço de forma rápida, segura e confiável.</p>
+        <p>Este manual define os padrões visuais e componentes oficiais usados no produto para garantir consistência entre desenvolvimento, design e documentação acadêmica.</p>
+      </section>
+
+      <!-- 2. Identidade Visual -->
+      <section class="manual-section" id="identidade">
+        <h2>2. Identidade Visual</h2>
+
+        <h3>2.1 Paleta Principal</h3>
+        <table>
+          <tr><th>Função</th><th>Cor</th><th>HEX</th></tr>
+          <tr><td>Primária</td><td>Azul Petroléo</td><td>#005f73</td></tr>
+          <tr><td>Secundária</td><td>Azul Turquesa</td><td>#0a9396</td></tr>
+          <tr><td>Fundo</td><td>Cinza Claro</td><td>#f8f9fa</td></tr>
+          <tr><td>Texto</td><td>Cinza Escuro</td><td>#333333</td></tr>
+        </table>
+
+        <h3>2.2 Paleta Estendida</h3>
+        <table>
+          <tr><th>Uso</th><th>Cor</th><th>HEX</th></tr>
+          <tr><td>Sucesso</td><td>Verde</td><td>#2ECC71</td></tr>
+          <tr><td>Alerta</td><td>Amarelo</td><td>#F1C40F</td></tr>
+          <tr><td>Erro</td><td>Vermelho Escuro</td><td>#C0392B</td></tr>
+        </table>
+      </section>
+
+      <!-- 3. Tipografia -->
+      <section class="manual-section" id="tipografia">
+        <h2>3. Tipografia</h2>
+        <p>O ConectaServ utiliza tipografia padrão do Bootstrap (Helvetica/Arial).</p>
+
+        <h3>3.1 Hierarquia</h3>
+        <table>
+          <tr><th>Elemento</th><th>Peso</th><th>Tamanho</th></tr>
+          <tr><td>H1</td><td>700</td><td>32px</td></tr>
+          <tr><td>H2</td><td>600</td><td>24px</td></tr>
+          <tr><td>H3</td><td>500</td><td>20px</td></tr>
+          <tr><td>Parágrafo</td><td>400</td><td>16px</td></tr>
+        </table>
+      </section>
+
+      <!-- 4. Espaçamentos -->
+      <section class="manual-section" id="espacamentos">
+        <h2>4. Espaçamentos & Grid</h2>
+        <p>O sistema de espaçamento segue o padrão de 8px do Bootstrap.</p>
+        <pre>4 / 8 / 12 / 16 / 24 / 32 / 48 / 64</pre>
+      </section>
+
+      <!-- 5. Componentes -->
+      <section class="manual-section" id="componentes">
+        <h2>5. Componentes do App</h2>
+
+        <h3>5.1 Botões</h3>
+        <ul>
+          <li>Botão primário usa <code>btn-primary</code> (cor: var(--cor-primaria))</li>
+          <li>Botão secundário usa <code>btn-secondary</code> (cor: var(--cor-secundaria))</li>
+          <li>Botão claro usa <code>btn-light</code> com texto azul</li>
+        </ul>
+
+        <h3>5.2 Cards</h3>
+        <ul>
+          <li>Background branco (#fff)</li>
+          <li>Borda cinza suave (#ddd)</li>
+          <li>Radius: 6–8px</li>
+        </ul>
+      </section>
+
+      <!-- 6. Prints -->
+      <section class="manual-section" id="prints">
+        <h2>6. Prints das Telas</h2>
+        <p>Os prints oficiais estão organizados na seção “Prints” do repositório.</p>
+
+        <h3>Fluxos disponíveis:</h3>
+        <ul>
+          <li>Onboarding</li>
+          <li>Busca</li>
+          <li>Lista de profissionais</li>
+          <li>Perfil do prestador</li>
+          <li>Cadastro</li>
+        </ul>
+      </section>
+
+      <!-- 7. Logo -->
+      <section class="manual-section" id="logo">
+        <h2>7. Logo & Regras de Uso</h2>
+        <ul>
+          <li>Não distorcer ou esticar</li>
+          <li>Não alterar cores oficiais</li>
+          <li>Não aplicar sobre fundos poluídos</li>
+        </ul>
+      </section>
+
+      <!-- 8. Tom -->
+      <section class="manual-section" id="tom">
+        <h2>8. Tom de Voz</h2>
+        <p>Clara, objetiva e amigável. Sem formalidade excessiva.</p>
+      </section>
+
+      <!-- 9. Versões -->
+      <section class="manual-section" id="versoes">
+        <h2>9. Versões</h2>
+        <pre>
+v1.0 – Estrutura inicial
+v1.1 – Visual atualizado
+v1.2 – Versão final para entrega do PI
+        </pre>
+      </section>
+
+    </main>
+
+    <!-- FOOTER ORIGINAL -->
+    <footer class="bg-primary text-white text-center p-3 mt-5">
+      <p class="mb-0">&copy; 2025 ConectaServ - PI 1º Semestre DSM Fatec Franca</p>
+    </footer>
+
+  </body>
+</html>

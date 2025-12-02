@@ -6,6 +6,16 @@
 
 ---
 
+## 📺 Vídeo de Apresentação (PIT)
+
+Confira a demonstração prática do nosso projeto e das funcionalidades desenvolvidas:
+
+[![Assistir ao Vídeo](https://img.youtube.com/vi/6wzdBdC5Kyc/0.jpg)](https://youtu.be/6wzdBdC5Kyc)
+
+🔗 **Link direto:** [https://youtu.be/6wzdBdC5Kyc](https://youtu.be/6wzdBdC5Kyc)
+
+---
+
 ## 📌 Sobre o Projeto
 
 O **ConectaServ** é um website desenvolvido como **Projeto Interdisciplinar (PI)** do 1º Semestre do curso de **Desenvolvimento de Software Multiplataforma** da **Fatec Franca - "Dr. Thomaz Novelino"**.
@@ -54,32 +64,34 @@ O site conta com 8 páginas navegáveis que simulam a experiência do usuário f
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📋 Documentação de Engenharia de Software
 
-A organização dos arquivos segue o padrão exigido para desenvolvimento web:
+Conforme diretrizes do PI, abaixo estão os requisitos e o modelo de negócio planejados para a aplicação.
 
-```text
-/ConectaServ
-│
-├── index.html           # Página Inicial
-├── busca.html           # Resultados da busca
-├── cadastro.html        # Página de cadastro
-├── como-funciona.html   # Explicação do serviço
-├── sobre.html           # Página institucional
-├── perfil_carlos.html   # Perfil Exemplo 1
-├── perfil_marcos.html   # Perfil Exemplo 2
-├── perfil_maria.html    # Perfil Exemplo 3
-│
-├── style/
-│   └── style.css        # Folhas de estilo personalizadas
-│
-├── script/
-│   └── script.js        # Lógica de interação (abas)
-│
-└── imagem/              # Logos, ícones e fotos de perfil
-    ├── logo.png
-    ├── logo_old.png
-    ├── carlos.png
-    ├── marcos.png
-    ├── maria.png
-    ├── cliente.png
+### Requisitos Funcionais (RF)
+* **RF-01:** O sistema deve permitir buscar profissionais filtrando pela cidade.
+* **RF-02:** O sistema deve exibir o perfil do profissional com foto, nome, profissão e avaliação média.
+* **RF-03:** O sistema deve permitir o cadastro de novos prestadores de serviço.
+* **RF-04:** O sistema deve permitir que o cliente envie uma mensagem direta ao profissional através do perfil.
+
+### Requisitos Não Funcionais (RNF)
+* **RNF-01:** O site deve ser responsivo (mobile-friendly).
+* **RNF-02:** A interface deve seguir a identidade visual da marca (Cores: #005f73 e #0a9396).
+* **RNF-03:** O carregamento das páginas deve ser otimizado para conexões lentas.
+
+### Business Model Canvas (Resumo)
+* **Proposta de Valor:** Conectar quem precisa de serviços rápidos com quem sabe fazer, garantindo visibilidade para autônomos e facilidade para contratantes.
+* **Segmento de Clientes:** Donos de casa, pequenos comércios e prestadores de serviços gerais.
+* **Canais:** Plataforma Web e divulgação local.
+
+---
+
+## 📢 Status do Projeto
+
+> **Status:** ✅ Concluído (Versão 1.0 - Front-end Estático)
+
+Este projeto foi entregue como requisito parcial para a aprovação no 1º Semestre do curso de DSM da Fatec Franca.
+
+---
+
+© 2025 ConectaServ

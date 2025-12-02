@@ -33,6 +33,10 @@ O projeto foi construído utilizando as tecnologias base do desenvolvimento web,
 * ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) **HTML5:** Estrutura semântica das páginas.
 * ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) **CSS3:** Estilização personalizada e identidade visual (Paleta Azul/Petróleo).
 * ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) **Bootstrap 4:** Framework para layout responsivo e componentes de interface.
+<<<<<<< HEAD
+=======
+* ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) **Bootstrap 4:** Framework para layout responsivo e componentes de interface.
+>>>>>>> bc944670b688be0b0e9505f13b740ffaa49a5c2a
 * ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) **JavaScript:** Manipulação de DOM e interatividade das abas.
 
 ---
@@ -82,4 +86,8 @@ A organização dos arquivos segue o padrão exigido para desenvolvimento web:
     ├── carlos.png
     ├── marcos.png
     ├── maria.png
+<<<<<<< HEAD
     ├── cliente.png
+=======
+    ├── ...
+>>>>>>> bc944670b688be0b0e9505f13b740ffaa49a5c2a

@@ -64,34 +64,35 @@ O site conta com 8 páginas navegáveis que simulam a experiência do usuário f
 
 ---
 
-## 📋 Documentação de Engenharia de Software
+## 📂 Estrutura do Projeto
 
-Conforme diretrizes do PI, abaixo estão os requisitos e o modelo de negócio planejados para a aplicação.
+A organização dos arquivos segue o padrão exigido para desenvolvimento web:
 
-### Requisitos Funcionais (RF)
-* **RF-01:** O sistema deve permitir buscar profissionais filtrando pela cidade.
-* **RF-02:** O sistema deve exibir o perfil do profissional com foto, nome, profissão e avaliação média.
-* **RF-03:** O sistema deve permitir o cadastro de novos prestadores de serviço.
-* **RF-04:** O sistema deve permitir que o cliente envie uma mensagem direta ao profissional através do perfil.
-
-### Requisitos Não Funcionais (RNF)
-* **RNF-01:** O site deve ser responsivo (mobile-friendly).
-* **RNF-02:** A interface deve seguir a identidade visual da marca (Cores: #005f73 e #0a9396).
-* **RNF-03:** O carregamento das páginas deve ser otimizado para conexões lentas.
-
-### Business Model Canvas (Resumo)
-* **Proposta de Valor:** Conectar quem precisa de serviços rápidos com quem sabe fazer, garantindo visibilidade para autônomos e facilidade para contratantes.
-* **Segmento de Clientes:** Donos de casa, pequenos comércios e prestadores de serviços gerais.
-* **Canais:** Plataforma Web e divulgação local.
-
----
-
-## 📢 Status do Projeto
-
-> **Status:** ✅ Concluído (Versão 1.0 - Front-end Estático)
-
-Este projeto foi entregue como requisito parcial para a aprovação no 1º Semestre do curso de DSM da Fatec Franca.
-
+```text
+/ConectaServ
+│
+├── index.html           # Página Inicial
+├── busca.html           # Resultados da busca
+├── cadastro.html        # Página de cadastro
+├── como-funciona.html   # Explicação do serviço
+├── sobre.html           # Página institucional
+├── perfil_carlos.html   # Perfil Exemplo 1
+├── perfil_marcos.html   # Perfil Exemplo 2
+├── perfil_maria.html    # Perfil Exemplo 3
+│
+├── style/
+│   └── style.css        # Folhas de estilo personalizadas
+│
+├── script/
+│   └── script.js        # Lógica de interação (abas)
+│
+└── imagem/              # Logos, ícones e fotos de perfil
+    ├── logo.png
+    ├── logo_old.png
+    ├── carlos.png
+    ├── marcos.png
+    ├── maria.png
+    ├── cliente.png
 ---
 
 © 2025 ConectaServ
